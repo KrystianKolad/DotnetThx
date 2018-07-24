@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Xml.Serialization;
+using DotnetThx.Models;
 
 namespace DotnetThx
 {
@@ -7,7 +10,10 @@ namespace DotnetThx
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Hello from dotnet-thx");
+            foreach (var item in PackageSearcher.FindPackages(ProjectsSearcher.GetProjects()))
+            {
+                System.Console.WriteLine(item);
+            }
         }
     }
 }
