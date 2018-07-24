@@ -10,9 +10,10 @@ namespace DotnetThx
     {
         static void Main(string[] args)
         {
+            List<Package> packages = new List<Package>();
             foreach (var item in PackageSearcher.FindPackages(ProjectsSearcher.GetProjects()))
             {
-                System.Console.WriteLine(item);
+                packages.AddRange(NugetApiClient.GetPackagesAsync(item).Result);
             }
         }
     }
