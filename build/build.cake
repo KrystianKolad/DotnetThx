@@ -4,6 +4,7 @@ var debugConfiguration = Argument("Configuration", "Debug");
 var solution = "../DotnetThx.sln";
 var artifacts = "../artifacts/";
 var packages = "../packages/";
+var pack = "../pack/";
 
 Task("Clean")
   .Does(() =>
@@ -68,8 +69,22 @@ Task("Publish")
               });
   });
 
-Task("Default")
+Task("Pack")
   .IsDependentOn("Publish")
+  .Does(() =>
+  {
+    DotNetCorePack(
+      "../src/DotnetThx/DotnetThx.csproj",
+      new DotNetCorePackSettings()
+      {
+          Configuration = releaseConfiguration,
+          OutputDirectory = pack,
+          ArgumentCustomization = args => args.Append("--no-restore"),
+      });
+  });
+
+Task("Default")
+  .IsDependentOn("Pack")
   .Does(() =>{ });
 
 
