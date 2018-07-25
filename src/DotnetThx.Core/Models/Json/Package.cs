@@ -1,4 +1,4 @@
-namespace DotnetThx.Models
+namespace DotnetThx.Core.Models.Json
 {
     public class Package
     {

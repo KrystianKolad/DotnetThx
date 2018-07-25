@@ -1,6 +1,6 @@
 using System.Xml.Serialization;
 
-namespace DotnetThx.Models
+namespace DotnetThx.Core.Models.Xml
 {
     public class PackageReference
     {

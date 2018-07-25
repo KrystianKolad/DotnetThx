@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
@@ -10,6 +10,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F0822D82-B310-4C48-BA09-DCE005F30AE5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetThx.Tests", "tests\DotnetThx.Tests\DotnetThx.Tests.csproj", "{A15B4826-10D0-466B-8F74-1412861599AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetThx.Core", "src\DotnetThx.Core\DotnetThx.Core.csproj", "{F96C2538-A5C9-4E2B-8BB0-632002B9F273}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,9 +50,22 @@ Global
 		{A15B4826-10D0-466B-8F74-1412861599AF}.Release|x64.Build.0 = Release|x64
 		{A15B4826-10D0-466B-8F74-1412861599AF}.Release|x86.ActiveCfg = Release|x86
 		{A15B4826-10D0-466B-8F74-1412861599AF}.Release|x86.Build.0 = Release|x86
+		{F96C2538-A5C9-4E2B-8BB0-632002B9F273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96C2538-A5C9-4E2B-8BB0-632002B9F273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96C2538-A5C9-4E2B-8BB0-632002B9F273}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F96C2538-A5C9-4E2B-8BB0-632002B9F273}.Debug|x64.Build.0 = Debug|Any CPU
+		{F96C2538-A5C9-4E2B-8BB0-632002B9F273}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F96C2538-A5C9-4E2B-8BB0-632002B9F273}.Debug|x86.Build.0 = Debug|Any CPU
+		{F96C2538-A5C9-4E2B-8BB0-632002B9F273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96C2538-A5C9-4E2B-8BB0-632002B9F273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96C2538-A5C9-4E2B-8BB0-632002B9F273}.Release|x64.ActiveCfg = Release|Any CPU
+		{F96C2538-A5C9-4E2B-8BB0-632002B9F273}.Release|x64.Build.0 = Release|Any CPU
+		{F96C2538-A5C9-4E2B-8BB0-632002B9F273}.Release|x86.ActiveCfg = Release|Any CPU
+		{F96C2538-A5C9-4E2B-8BB0-632002B9F273}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8034A913-C4CC-43D6-8F2B-F9802B53E111} = {A8228891-BA38-4808-9E5A-A34784FCE048}
 		{A15B4826-10D0-466B-8F74-1412861599AF} = {F0822D82-B310-4C48-BA09-DCE005F30AE5}
+		{F96C2538-A5C9-4E2B-8BB0-632002B9F273} = {A8228891-BA38-4808-9E5A-A34784FCE048}
 	EndGlobalSection
 EndGlobal

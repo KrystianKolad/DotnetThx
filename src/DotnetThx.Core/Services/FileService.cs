@@ -1,12 +1,13 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using DotnetThx.Core.Services.Interfaces;
 
-namespace DotnetThx
+namespace DotnetThx.Core.Services
 {
-    public static class FileSearcher
+    public class FileService : IFileService
     {
-        public static List<string> FindAllFiles()
+        public IList<string> FindFiles()
         {
             return Directory.GetFiles(".","*.*proj",SearchOption.AllDirectories).ToList();
         }
