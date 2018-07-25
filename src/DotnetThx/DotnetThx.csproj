@@ -8,6 +8,12 @@
     <RootNamespace>DotnetThx</RootNamespace>
     <AssemblyName>dotnet-thx</AssemblyName>
     <VersionPrefix>0.1.0</VersionPrefix>
+    <PackageId>DotnetThx</PackageId>
+    <PackageProjectUrl>https://github.com/canton7/RestEase</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/canton7/RestEase.git</RepositoryUrl>
+    <Authors>Krystian Kolad</Authors>
+    <Description>Dotnet tool listing all authors of packages you are using in your project</Description>
   </PropertyGroup>
 
   <ItemGroup>
