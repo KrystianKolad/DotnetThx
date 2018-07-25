@@ -14,7 +14,7 @@ namespace DotnetThx.Runners
         public void Run()
         {
             var searchResult = _searchController.InvokeSearch().Result;
-            Console.WriteLine("List of people you should thank for:");
+            Console.WriteLine("List of people you should thank:");
             foreach (var item in searchResult)
             {
                 Console.WriteLine("---------------------------------------------------------------");
