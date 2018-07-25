@@ -21,6 +21,10 @@ Task("Clean")
     {
         DeleteDirectory(packages, directorySettings);
     }
+    if (DirectoryExists(pack))
+    {
+        DeleteDirectory(pack, directorySettings);
+    }
   });
 
 Task("Restore")
