@@ -11,7 +11,8 @@
     <PackageId>DotnetThx</PackageId>
     <PackageProjectUrl>https://github.com/canton7/RestEase</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/canton7/RestEase.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/canton7/RestEase</RepositoryUrl>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
     <Authors>Krystian Kolad</Authors>
     <Description>Dotnet tool listing all authors of packages you are using in your project</Description>
   </PropertyGroup>
