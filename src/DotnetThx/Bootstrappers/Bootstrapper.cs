@@ -13,8 +13,8 @@ namespace DotnetThx.Bootstrappers
     public class Bootstrapper
     {
         private IConsoleRunner _runner;
-        private readonly IServiceProvider _serviceProvider;
-        public Bootstrapper()
+        private static readonly IServiceProvider _serviceProvider;
+        static Bootstrapper()
         {
             _serviceProvider = new ServiceCollection()
                 .AddScoped<IConsoleRunner, ConsoleRunner>()
