@@ -7,11 +7,11 @@
     <PackAsTool>true</PackAsTool>
     <RootNamespace>DotnetThx</RootNamespace>
     <AssemblyName>dotnet-thx</AssemblyName>
-    <VersionPrefix>0.1.1</VersionPrefix>
+    <VersionPrefix>0.1.2</VersionPrefix>
     <PackageId>DotnetThx</PackageId>
-    <PackageProjectUrl>https://github.com/canton7/RestEase</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/KrystianKolad/DotnetThx</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/canton7/RestEase</RepositoryUrl>
+    <RepositoryUrl>https://github.com/KrystianKolad/DotnetThx</RepositoryUrl>
     <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
     <Authors>Krystian Kolad</Authors>
     <Description>Dotnet tool listing all authors of packages you are using in your project</Description>
