@@ -12,12 +12,12 @@ namespace DotnetThx.Bootstrappers
 {
     public class Bootstrapper
     {
-        private IConsoleRunner _runner;
+        private IRunner _runner;
         private static readonly IServiceProvider _serviceProvider;
         static Bootstrapper()
         {
             _serviceProvider = new ServiceCollection()
-                .AddScoped<IConsoleRunner, ConsoleRunner>()
+                .AddScoped<IRunner, ConsoleRunner>()
                 .AddScoped<ISearchController,SearchController>()
                 .AddScoped<IFileService, FileService>()
                 .AddScoped<INugetService>(obj => RestClient.For<INugetService>("https://api-v2v3search-0.nuget.org"))
@@ -29,7 +29,7 @@ namespace DotnetThx.Bootstrappers
 
         public void Start()
         {
-            _runner = _serviceProvider.GetService<IConsoleRunner>();
+            _runner = _serviceProvider.GetService<IRunner>();
             _runner.Run();
         }
     }

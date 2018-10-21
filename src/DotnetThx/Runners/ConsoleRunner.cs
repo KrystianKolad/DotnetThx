@@ -4,7 +4,7 @@ using DotnetThx.Runners.Interfaces;
 
 namespace DotnetThx.Runners
 {
-    public class ConsoleRunner : IConsoleRunner
+    public class ConsoleRunner : IRunner
     {
         private readonly ISearchController _searchController;
         public ConsoleRunner(ISearchController searchController)

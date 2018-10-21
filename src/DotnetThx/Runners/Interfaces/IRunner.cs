@@ -1,6 +1,6 @@
 namespace DotnetThx.Runners.Interfaces
 {
-    public interface IConsoleRunner
+    public interface IRunner
     {
         void Run();
     }
