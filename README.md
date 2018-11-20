@@ -2,6 +2,7 @@ DotnetThx
 =================
 
 Simple dotnet tool to find all authors of your nuget references
+![GitHub](https://img.shields.io/github/license/KrystianKolad/DotnetThx.svg)
 
 ## Install
 ```
